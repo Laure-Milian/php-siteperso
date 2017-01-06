@@ -17,3 +17,9 @@ function getContent(){
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
+
+function getUserData() {
+	//include __DIR__.'/../data/user.json';
+	$file = file_get_contents(__DIR__.'/../data/user.json', FILE_USE_INCLUDE_PATH);
+	echo $file;
+}
