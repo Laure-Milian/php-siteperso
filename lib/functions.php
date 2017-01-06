@@ -21,5 +21,6 @@ function getPart($name){
 function getUserData() {
 	//include __DIR__.'/../data/user.json';
 	$file = file_get_contents(__DIR__.'/../data/user.json', FILE_USE_INCLUDE_PATH);
-	echo $file;
+	$file_decode = json_decode($file);
+	return $file_decode;
 }
