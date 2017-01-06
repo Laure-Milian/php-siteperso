@@ -6,7 +6,7 @@ Le contenu du site est libre, cependant il est conseillé de commencer à réfl�
 
 **Lisez toutes les instructions (deux fois s'il le faut) avant de commencer**
 
-Instructions détaillées
+Instructions détaillées 
 ---
 
 1. **Forkez** ce *repo* puis **clônez le** sur votre macine
