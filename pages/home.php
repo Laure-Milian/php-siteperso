@@ -1,1 +1,1 @@
-<h1>maison sucré maison</h1>
+<h2>maison sucré maison</h2>
